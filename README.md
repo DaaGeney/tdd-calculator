@@ -13,16 +13,11 @@ pip install foobar
 
 ## Test cases
 
-- Solo acepte números y no letras
-el sistema debe aceptar únicamente números reales, no puede aceptar ni letras ni números imaginarios.
-- Al ingresar un numero con un signo "-" al frente de este, debe devolver el numero ingresado negativo.
-- Solo acepte 2 numeros
-- si se quiere sacar la raíz par de un numero negativo, imprima error
-no permitir divisiones por 0
-
-
-
-
+- Solo acepte números y no letras el sistema debe aceptar únicamente números reales, no puede aceptar ni letras ni números imaginarios.
+- Si se quiere sacar la raíz par de un numero negativo, imprima error.
+- No permitir divisiones por 0, ya sea en la division.
+- Permitir cualquier operación del tipo: <img src="https://render.githubusercontent.com/render/math?math=a^{1/b}"> que es equivalente a una raiz.
+- Se ha seleccionado una opción diferente a la menú.
 
 
 ## Contributing
