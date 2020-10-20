@@ -18,6 +18,7 @@ pip install foobar
 - No permitir divisiones por 0, ya sea en la division.
 - Permitir cualquier operación del tipo: <img src="https://render.githubusercontent.com/render/math?math=a^{1/b}"> que es equivalente a una raiz.
 - Se ha seleccionado una opción diferente a la menú.
+- Casos ideales de cada operación.
 
 
 ## Contributing
