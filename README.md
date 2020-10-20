@@ -15,7 +15,8 @@ pip install foobar
 
 - Solo acepte números y no letras el sistema debe aceptar únicamente números reales, no puede aceptar ni letras ni números imaginarios.
 - Si se quiere sacar la raíz par de un numero negativo, imprima error.
-- No permitir divisiones por 0, ya sea en la division.
+- No permitir divisiones por 0 en la division.
+- No permitir divisiones por 0 en la raiz, recordar: <img src="https://render.githubusercontent.com/render/math?math=a^{1/b}">.
 - Permitir cualquier operación del tipo: <img src="https://render.githubusercontent.com/render/math?math=a^{1/b}"> que es equivalente a una raiz.
 - Se ha seleccionado una opción diferente a la menú.
 - Casos ideales de cada operación.
