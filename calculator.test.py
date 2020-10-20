@@ -7,8 +7,9 @@ class test_calculator(unittest.TestCase):
         self.only_numbers()
         self.zero_division()
         self.zero_division_root()
-        self.odd_number_root()
+        self.number_root()
         self.other_menu_option()
+        self.square_root_negative()
 
     def ideal_cases(self):
         """
@@ -41,7 +42,7 @@ class test_calculator(unittest.TestCase):
         """
         self.assertEqual(switch(6, 2, 0), "Error matematico")
 
-    def odd_number_root(self):
+    def number_root(self):
         """
             Test if the root returns a valid result
         """
@@ -55,6 +56,11 @@ class test_calculator(unittest.TestCase):
         """
         self.assertEqual(switch(7, 1, 2), "Opcion Invalida")
 
+    def square_root_negative(self):
+        """
+            Test if the square root of a negative number throws an error.
+        """
+        self.assertEqual(switch(6, -2, 2), "Error matematico")
 
 test = test_calculator()
 test.main()
